@@ -108,9 +108,6 @@ alert(sum(10,10));
 alert(sum2(10,10));
 
 
-
-*/
-
 //demo7
 var color = 'red';
 
@@ -134,6 +131,10 @@ sayColor.call(window);
 sayColor.call(this);
 
 sayColor.call(box);
+
+*/
+
+
 
 
 
