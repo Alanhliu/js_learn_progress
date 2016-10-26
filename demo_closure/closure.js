@@ -554,19 +554,16 @@ var box = function() {
 	
 	var desk = new Desk();
 
-	// var publicGo = function() {
-	// 	return user+run();
-	// }
-	// desk.publicGo = publicGo;
-
 	desk.publicGo = function() {
 		return user+run();
 	};
+	desk.publicUser = user;
 	
 	return desk;
 }();
 
 alert(box.publicGo());
+alert(box.publicUser);
 */
 
 
