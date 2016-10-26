@@ -422,12 +422,15 @@ function Box(value) {
 }
 
 var box = new Box('lee');
-alert(box.getUser());
+alert(box.getUser());//lee
 
 var box2 = new Box('kkk');
-alert(box.getUser());
+alert(box.getUser());//lee
+alert(box2.getUser());//kkk
+
 box.setUser('ooo');
-alert(box.getUser());
+alert(box.getUser());//ooo
+alert(box2.getUser());//kkk
 
 
 //demo3
@@ -450,9 +453,12 @@ alert(box.getUser());
 
 //但这样写不好，所以见demo4
 var box = new Box('lee');
-alert(box.getUser());
+alert(box.getUser());//lee
+
 var box2 = new Box('kkk');
-alert(box.getUser());
+
+alert(box.getUser());//kkk
+alert(box2.getUser());//kkk
 
 
 //demo4
@@ -478,12 +484,14 @@ alert(box.getUser());
 })();
 
 var box = new Box('lee');
-alert(box.getUser());
+alert(box.getUser());//lee
 var box2 = new Box('kkk');
-alert(box.getUser());
+alert(box2.getUser());//kkk
+alert(box.getUser());//kkk
 
 box2.setUser('ooo');
-alert(box.getUser());
+alert(box.getUser());//ooo
+alert(box2.getUser());//ooo
 
 
 
@@ -534,8 +542,6 @@ var box = function() {
 }();
 
 alert(box.publicGo());
-*/
-
 
 //增强的模块模式，这个模式适合返回自定义对象，也就是构造函数
 function Desk() {};
@@ -547,13 +553,21 @@ var box = function() {
 	}
 	
 	var desk = new Desk();
+
+	// var publicGo = function() {
+	// 	return user+run();
+	// }
+	// desk.publicGo = publicGo;
+
 	desk.publicGo = function() {
 		return user+run();
 	};
+	
 	return desk;
 }();
 
 alert(box.publicGo());
+*/
 
 
 
