@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2016-10-29 21:21:03
+ * @version $Id$
+ */
+
+#box {
+	font-size: 20px;
+	color: red;
+	background: #ccc;
+}
+
+.aaa {
+	font-size: 20px;
+}
+
+.bbb {
+	color: green;
+}
+
+.ccc {
+	font-weight: bold;
+}
