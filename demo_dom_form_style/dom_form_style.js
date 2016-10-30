@@ -107,11 +107,10 @@
 	// alert(sheet.disabled = true);//引用样式
 	// alert(sheet.href);
 
-	//chrome不支持
+     //chrome得运行在服务器下,才能显示cssRules
+	 alert(sheet.cssRules);
 	// alert(sheet.cssRules[0].cssText);
 	// alert(sheet.cssRules[0].selectorText);
-
-	alert(rules);
 
 	// 通过上面两个例子可以知道对于<link>元素引用的外联样式表，
 	// chrome不知持通过cssRules属性获得其中的样式规则，而Firefox和IE可以。
