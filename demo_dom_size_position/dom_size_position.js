@@ -2,7 +2,7 @@
  * Created by hliu on 2016/10/30.
  */
 
-window.onload = function() {
+window.onload = function () {
     //var pox = document.getElementById('pox');
     //获取行内style
     //alert(pox.style.width);
@@ -33,4 +33,26 @@ window.onload = function() {
     //
     //alert(box.offsetTop);
     //alert(box.offsetLeft);
+
+    //获取元素
+    alert(box.getBoundingClientRect().top);//元素上边距离页面上边的距离
+    alert(box.getBoundingClientRect().right);//元素右边距离页面左边的距离
+    alert(box.getBoundingClientRect().bottom); //元素下边距离页面上边的距离
+    alert(box.getBoundingClientRect().left);//元素左边距离页面左边的距离
+
+    //PS:IE、Firefox3+、Opera9.5、Chrome、Safari 支持，在 IE 中，默认坐标从(2,2)开始计算，
+    //导致最终距离比其他浏览器多出两个像素，我们需要做个兼容。
+    //document.documentElement.clientTop; //非 IE 为 0，IE 为 2
+    //document.documentElement.clientLeft ; //非 IE 为 0，IE 为 2
+}
+
+function getRect(element) {
+    var rect = element.getBoundingClientRect();
+    var top = document.documentElement.clientTop;
+    var left = document.documentElement.clientLeft;
+    return {
+        top: rect.top - top,
+        bottom: rect.bottom - top, left: rect.left - left,
+        right: rect.right - left
+    }
 }
