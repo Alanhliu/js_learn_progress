@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="891e2e95-d1bc-4817-9da6-49bd5217076c" name="Default" comment="demo_dom_size_position">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo_event/event.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo_event/event.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo_event_advanced/event_advanced.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo_event_advanced/event_advanced.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="js_learn_progress.iws" />
@@ -25,22 +25,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="event.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo_event/event.html">
+      <file leaf-file-name="event_advanced.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo_event_advanced/event_advanced.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.818182">
-              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-              <folding />
+            <state vertical-scroll-proportion="0.6308244">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#40#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="event.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/demo_event/event.js">
+      <file leaf-file-name="event_advanced.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo_event_advanced/event_advanced.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.11011236">
-              <caret line="72" column="29" selection-start-line="72" selection-start-column="29" selection-end-line="72" selection-end-column="29" />
-              <folding />
+            <state vertical-scroll-proportion="-7.2727275">
+              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+              <folding>
+                <marker date="1478175142000" expanded="true" signature="174:183" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,6 +80,8 @@
         <option value="$PROJECT_DIR$/demo_ajax/ajax.js" />
         <option value="$PROJECT_DIR$/demo_event/event.html" />
         <option value="$PROJECT_DIR$/demo_event/event.js" />
+        <option value="$PROJECT_DIR$/demo_event_advanced/event_advanced.html" />
+        <option value="$PROJECT_DIR$/demo_event_advanced/event_advanced.js" />
       </list>
     </option>
   </component>
@@ -85,8 +91,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="689" />
-    <option name="y" value="171" />
+    <option name="x" value="434" />
+    <option name="y" value="39" />
     <option name="width" value="1499" />
     <option name="height" value="987" />
   </component>
@@ -144,7 +150,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="demo_event" />
+              <option name="myItemId" value="demo_event_advanced" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -234,10 +240,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="689" y="171" width="1499" height="987" extended-state="0" />
-    <editor active="false" />
+    <frame x="434" y="39" width="1499" height="987" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17344896" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17344896" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -407,9 +413,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo_event/event.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11011236">
-          <caret line="72" column="29" selection-start-line="72" selection-start-column="29" selection-end-line="72" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="84" column="7" selection-start-line="84" selection-start-column="7" selection-end-line="84" selection-end-column="7" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_event_advanced/event_advanced.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.2727275">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding>
+            <marker date="1478175142000" expanded="true" signature="174:183" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_event_advanced/event_advanced.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6308244">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
